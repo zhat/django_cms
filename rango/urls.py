@@ -11,6 +11,7 @@ urlpatterns=patterns('',
 	#	url(r'^register/$',views.register,name='register'),#注册
 	#	url(r'^login/$',views.user_login,name='login'), #登录
 		url(r'^restricted/',views.restricted,name='restricted'),#登录后可以看到
+		url(r'^search/',views.search,name='search'),#登录后可以看到
 	#	url(r'^logout/$',views.user_logout,name='logout'),#退出登录
 		)
 		
